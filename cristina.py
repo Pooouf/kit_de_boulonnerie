@@ -21,7 +21,7 @@ DATA_FILE = 'Préparation Kits Boulonnerie U3_ (Récupéré).xlsm'
 data_filepath = pathlib.Path(__file__).parent / DATA_FILE
 data_filename = askopenfilename(
     title=f'Ouvrir le fichier modèle d\'impression "{DATA_FILE}"',
-    message="Note : Le fichier doit être un tableur Excel, contenir un onglet CFM56-5B et un onglet Impression",
+#    message="Note : Le fichier doit être un tableur Excel, contenir un onglet CFM56-5B et un onglet Impression",
     initialfile=data_filepath,
 )
 
